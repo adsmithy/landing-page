@@ -1,1 +1,2 @@
 # landing-page
+This is the landing page project at the end of the Flex Box section in The Odin Project. This project will hopefully pull together the html, css, and flex skills I have studied thus far.
