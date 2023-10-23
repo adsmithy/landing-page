@@ -4,6 +4,7 @@
 
 html{
     font-size: 16px;
+    color: #ffffff;
 }
 
 body{
@@ -48,7 +49,7 @@ li {
     display: flex;
     justify-content: space-between;
     padding: 60px;
-    gap: 50px;
+    gap: 80px;
 }
 
 .hero-left {
@@ -58,6 +59,7 @@ li {
 h2 {
     font-size: 48px;
     font-weight: extra-bold;
+    color: #1f2937;
 }
 
 .hero-right {
@@ -68,3 +70,22 @@ h2 {
     width: 630px;
     height: 355px;
 }
+
+p {
+    color: #1f2937;
+    margin-top: -15px;
+    margin-bottom: 25px;
+}
+
+button {
+    background-color: #3882f6;
+    color: white;
+    border: 1px solid #3882f6;
+    border-radius: 12px;
+    padding: 8px 12px;
+}
+ a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+ }
