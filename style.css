@@ -201,7 +201,15 @@ button {
     color: white;
     border: 1px solid #ffffff;
     border-radius: 12px;
-    padding: 8px 12px;
-    height: 30px;
+    padding: 5px 20px;
     align-items: center;
+ }
+
+ footer, footer p {
+    background-color: #1f2937;
+    color: #E5E7EB;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
  }
