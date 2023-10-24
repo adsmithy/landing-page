@@ -50,6 +50,7 @@ li {
     justify-content: space-between;
     padding: 60px;
     gap: 80px;
+    background-color: #1f2937;
 }
 
 .hero-left {
@@ -59,7 +60,13 @@ li {
 h2 {
     font-size: 48px;
     font-weight: extra-bold;
-    color: #1f2937;
+    color: #f9faf8;
+    margin-bottom: auto;
+}
+
+.hero-text {
+    color:#f9faf8;
+    margin-bottom: 25px;
 }
 
 .hero-right {
@@ -73,8 +80,6 @@ h2 {
 
 p {
     color: #1f2937;
-    margin-top: -15px;
-    margin-bottom: 25px;
 }
 
 button {
@@ -88,4 +93,115 @@ button {
     color: white;
     text-decoration: none;
     font-size: 18px;
+ }
+
+ .services {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 75px;
+ }
+
+ h3 {
+    color: #1f2937;
+    font-size: 36px;
+    text-align: center;
+ }
+
+ .services-container {
+    display: flex;
+    color: #3d3d3d;
+    justify-content: space-around;
+    width: 1200px;
+    margin: 10px auto;
+ }
+
+ .card-image {
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+    display: block;
+ }
+
+ .info {
+    width: 250px;
+    text-align: center;
+ }
+
+ .quote {
+    display: flex;
+    background-color: #e5e7eb;
+    padding: 80px;
+    flex-direction: column;
+ }
+
+ .text-container {
+    display: flex;
+    justify-content: center;
+ }
+
+ .author-container {
+    display: flex;
+    justify-content: flex-end;
+ }
+
+ .quote-text {
+    font-size: 36px;
+    color: #1f2937;
+    width: 1100px;
+ }
+
+ .author {
+    padding-right: 125px;
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: -20px;
+ }
+
+ .signup {
+    display: flex;
+    justify-content: center;
+    padding: 80px;
+ }
+
+ .signup-box {
+    display: flex;
+    justify-content: space-between;
+    width: 1000px;
+    height: 100px;
+    align-items: center;
+    background-color: #3882f6;
+    border: 1px solid #3882f6;
+    border-radius: 10px;
+    gap: 100px;
+ }
+
+ .signup-title {
+    color: #e5e7eb;
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: -10px;
+ }
+
+ .signup-left {
+    margin: auto;
+ }
+
+ .signup-text {
+    color: #e5e7eb
+ }
+
+ .signup-right {
+    margin: auto;
+ }
+
+ .signup-button {
+    background-color: #3882f6;
+    color: white;
+    border: 1px solid #ffffff;
+    border-radius: 12px;
+    padding: 8px 12px;
+    height: 30px;
+    align-items: center;
  }
